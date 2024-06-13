@@ -74,10 +74,6 @@ body {
   height: 15.43px;
 }
 
-.header__menu {
-
-}
-
 .header__menu-list {
     list-style: none;
     display: flex;
@@ -91,10 +87,6 @@ body {
 
 .header__menu-item_active {
     text-decoration: none;
-}
-
-.header__menu-link {
-    
 }
 
 .cover__title {
