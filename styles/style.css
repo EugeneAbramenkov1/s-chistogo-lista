@@ -99,14 +99,14 @@ body {
 }
 
 .cover__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", serif;
   font-weight: 400;
   font-size: 72px;
+  line-height: 72px;
 }
 
 .accent-span {
   display: block;
-  height: 72px;
 }
 
 .text-center {
@@ -115,9 +115,7 @@ body {
 }
 
 .text-right {
-  margin-left: auto;
-  margin-right: 4px;
-  width: 161px;
+  text-align: right;
 }
 
 .intro__heading {
@@ -143,19 +141,10 @@ body {
 }
 
 .content-section__subtitle {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", serif;
   font-weight: 500;
   font-size: 28px;
-}
-
-.content-section__accent-span {
-  display: block;
-  height: 31px;
-}
-
-.content-section__text-right {
-  margin-left: auto;
-  width: 245px;
+  line-height: 31px;
 }
 
 .content-section__introduction {
@@ -177,11 +166,6 @@ body {
 
 .content-section__list-accent {
   font-weight: bold;
-}
-
-.content-section__how-to__text-right {
-  margin-left: auto;
-  width: 228px;
 }
 
 .content-section__how-to__introduction {
@@ -234,7 +218,7 @@ body {
 }
 
 .card__title {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", serif;
   font-weight: 500;
   font-size: 22px;
 }
@@ -253,4 +237,8 @@ body {
   font-size: 14px;
   text-decoration: none;
   gap: 16px;
+}
+
+.footer_ul {
+  list-style: none;
 }
